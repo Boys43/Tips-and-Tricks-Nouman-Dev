@@ -1,0 +1,17 @@
+.card {
+    width: 260px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    transform: perspective(800px) rotateX(45deg) scale(0.7);
+    box-shadow: 0 25px 50px rgba(100, 120, 150, 0.3),
+        inset 0 -4px 8px rgba(255, 255, 255, .6);
+    transition: transform 0.6s ease, box-shadow 0.9s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform:  rotateX(0deg) scale(1) translateY(-10px);
+    box-shadow: 0 35px 70px rgba(80, 100, 130, 0.35),
+        inset 0 -6px 10px rgba(255, 255, 255, .7);
+}
