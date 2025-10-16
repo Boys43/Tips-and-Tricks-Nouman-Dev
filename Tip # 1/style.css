@@ -10,8 +10,8 @@
     cursor: pointer;
 }
 
-.card:hover{
-    transform:  rotateX(0deg) scale(1) translateY(-10px);
+.card:hover {
+    transform: rotateX(0deg) scale(1) translateY(-10px);
     box-shadow: 0 35px 70px rgba(80, 100, 130, 0.35),
         inset 0 -6px 10px rgba(255, 255, 255, .7);
 }
